@@ -1,0 +1,45 @@
+#app{
+    height:970px ;
+    margin-left :150px;
+    padding: 5px;
+}
+
+.header{
+    background-color: #6aa84f;
+    height: 100px;
+    margin-bottom: 10px;
+    width: 970px;
+}
+.navigation{
+    background-color: #6fa8dc;
+    width: 20%;
+    height: 600px;
+    float: left;
+}
+.main{
+    background-color: #e06666;
+    height: 800px;
+    width: 78%;
+    float: right;
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.subContent{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 14px;
+    background-color: #ffd966;
+    height: 500px;
+    width: 28%;
+
+}
+.advertisment{
+    background-color: #b4a7d6;
+    margin:20px 20px 20px 20px ;
+    height: 200px;
+    width: 95%;
+}
